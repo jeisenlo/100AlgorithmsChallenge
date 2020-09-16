@@ -1,7 +1,7 @@
 ### Check Out My [YouTube Channel](https://www.YouTube.com/CodingTutorials360)
 
 ---
-Given a string, replace each its character by the next one in the English alphabet (z would be replaced by a).
+Given a string, replace each of its characters by the next one in the English alphabet (z would be replaced by a).
 
 **Example**
 
