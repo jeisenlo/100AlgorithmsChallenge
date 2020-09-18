@@ -1,13 +1,9 @@
 function isCaseInsensitivePalindrome(inputString: string): boolean {
     const lcInputString = inputString.toLowerCase();
-    const reverseString = lcInputString.split('').reverse().join('');
+    const lcReverseString = lcInputString.split('').reverse().join('');
 
-    // Is the string a palindrome?
-    if (lcInputString === reverseString) {
-        return true;
-    }
-
-    return false;
+    // Is the lowercase string a palindrome?
+    return lcInputString === lcReverseString;
 }
 
 console.log(isCaseInsensitivePalindrome('AaBaa'));
