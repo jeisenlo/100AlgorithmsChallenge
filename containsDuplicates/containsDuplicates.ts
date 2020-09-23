@@ -2,7 +2,7 @@ function containsDuplicates(a: number[]): boolean {
 
     // If all numbers have an indexOf value equal to their index
     // Then, there is no duplicate value
-    let uniqueNumsArray = a.filter((num, index) => {
+    let uniqueNumsArray: number[] = a.filter((num, index) => {
         return a.indexOf(num) === index;
     });
     // If the lengths of the arrays are equal then no duplicates exist
@@ -11,8 +11,7 @@ function containsDuplicates(a: number[]): boolean {
 }
 
 function containsDuplicates2(a: number[]): boolean {
-    
-    let uniqueNums = [];
+    const uniqueNums: number[] = [];
 
     a.forEach((num) => {
         if (!uniqueNums.includes(num)) {

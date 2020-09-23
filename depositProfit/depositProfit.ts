@@ -1,6 +1,6 @@
 function depositProfit(deposit: number, rate: number, threshold: number): number {
-    let years = 0;
-    let total = deposit;
+    let years: number = 0;
+    let total: number = deposit;
 
     // Keep looping until the total passes threshold
     while (total < threshold) {
